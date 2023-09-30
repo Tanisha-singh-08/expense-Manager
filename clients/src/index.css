@@ -1,44 +1,43 @@
-* {
-  padding: 0;
+*{
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-.content {
-  height: 100%;
+.content{
+  height: 100vh;
 }
 
-/* transection page */
-.filters {
+.register-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+/* transaction-page */
+.filters{
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 15px 20px;
   box-shadow: 0 0 3px gray;
-  margin-bottom: 10px;
 }
-/* transection page */
 
-/* antd icons */
+/* //antd icons */
 
-.switch-icons {
-  border: 1px solid rgba(0, 0, 0, 0.677);
+.switch-icons{
+  border: 1px solid rgba(0,0,0,0.67);
   border-radius: 5px;
-  padding: 10px 15px;
 }
-
-.anticon svg {
+.anticon svg{
   font-size: 20px;
   cursor: pointer;
 }
-
-.active-icon {
-  color: black;
-}
-.inactive-icon {
-  color: gray;
+.active-icon{
+  color:black;
 }
 
-.filter-tab .ant-select-selector {
-  width: 150px !important;
+.inactive-icon{
+  color:gray;
+
 }
